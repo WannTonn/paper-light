@@ -1,0 +1,37 @@
+# JavaScript dependencies and frontend output
+node_modules/
+.pnpm-store/
+dist/
+
+# Rust / Tauri build output
+src-tauri/target/
+
+# Machine-local Cargo mirror settings
+.cargo/
+
+# Local test photos and generated scans in the repository root
+/*.jpg
+/*.jpeg
+/*.png
+/*-扫描.*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.stackdump
+
